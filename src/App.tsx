@@ -8,7 +8,7 @@ function App() {
   const [showModal, setShowModal] = useState(false)
   const [modalMessage, setModalMessage] = useState('')
   const [actionTaken, setActionTaken] = useState(false)
-  const data = `prenom:Loukas,nom:Dupont,solde:${solde},date:${new Date().toLocaleDateString()},heure:${new Date().toLocaleTimeString()}`
+  const data = `prenom:Louka,nom:Dupont,solde:${solde},date:${new Date().toLocaleDateString()},heure:${new Date().toLocaleTimeString()}`
   const prix = 10
 
   const handleClick = () => {
